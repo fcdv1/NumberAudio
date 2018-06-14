@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "AVAudioPlayerQueueManager.h"
+@import AVFoundation;
+#import "NumberToFiles.h"
 
 @interface ViewController ()
 
@@ -17,12 +20,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)playButtonPressed:(id)sender {
+    srand((unsigned int)time(NULL));
+    double value = (rand()%1000000000 / 10000.0);
+    
+    NSArray <NSString *>*englishAudioFiles = [NumberToFiles fileNamesWithFloatValue:value fileType:KFileTypeEnglish];
+    [[AVAudioPlayerQueueManager sharedInstance] enqueueBundleAudioFiles:englishAudioFiles withTaskIdentifer:nil beginPlayCallBack:^(NSString *taskID){
+        NSLog(@"English:%f",value);
+    } endPlayCallBack:nil];
+    
+    NSArray <NSString *>*chineseAudioFiles = [NumberToFiles fileNamesWithFloatValue:value fileType:KFileTypeCN];
+    [[AVAudioPlayerQueueManager sharedInstance] enqueueBundleAudioFiles:chineseAudioFiles withTaskIdentifer:nil beginPlayCallBack:^(NSString *taskID){
+        NSLog(@"Chinese:%f",value);
+    } endPlayCallBack:nil];
+}
+- (IBAction)cancelAllButtonPressed:(id)sender {
+    [[AVAudioPlayerQueueManager sharedInstance] cancelAllTask];
 }
 
 

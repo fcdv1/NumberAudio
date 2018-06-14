@@ -14,6 +14,55 @@
 		0337E30020D262960061617C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0337E2FE20D262960061617C /* LaunchScreen.storyboard */; };
 		0337E30320D262960061617C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0337E30220D262960061617C /* main.m */; };
 		0337E30D20D262960061617C /* AudioNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0337E30C20D262960061617C /* AudioNumberTests.m */; };
+		0337E31B20D262D00061617C /* AVAudioPlayerQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0337E31920D262D00061617C /* AVAudioPlayerQueueManager.m */; };
+		0337E31E20D262E60061617C /* NumberToFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 0337E31C20D262E60061617C /* NumberToFiles.m */; };
+		0337E34320D263170061617C /* EN30.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32220D263160061617C /* EN30.m4a */; };
+		0337E34420D263170061617C /* EN40.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32320D263160061617C /* EN40.m4a */; };
+		0337E34520D263170061617C /* EN80.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32420D263160061617C /* EN80.m4a */; };
+		0337E34620D263170061617C /* EN90.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32520D263160061617C /* EN90.m4a */; };
+		0337E34720D263170061617C /* EN50.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32620D263160061617C /* EN50.m4a */; };
+		0337E34820D263170061617C /* EN60.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32720D263160061617C /* EN60.m4a */; };
+		0337E34920D263170061617C /* EN70.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32820D263160061617C /* EN70.m4a */; };
+		0337E34A20D263170061617C /* EN100.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32920D263160061617C /* EN100.m4a */; };
+		0337E34B20D263170061617C /* EN1000.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32A20D263160061617C /* EN1000.m4a */; };
+		0337E34C20D263170061617C /* EN3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32C20D263160061617C /* EN3.m4a */; };
+		0337E34D20D263170061617C /* EN2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32D20D263160061617C /* EN2.m4a */; };
+		0337E34E20D263170061617C /* EN0.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32E20D263160061617C /* EN0.m4a */; };
+		0337E34F20D263170061617C /* EN1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E32F20D263160061617C /* EN1.m4a */; };
+		0337E35020D263170061617C /* EN5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33020D263160061617C /* EN5.m4a */; };
+		0337E35120D263170061617C /* EN4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33120D263160061617C /* EN4.m4a */; };
+		0337E35220D263170061617C /* EN6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33220D263160061617C /* EN6.m4a */; };
+		0337E35320D263170061617C /* EN7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33320D263160061617C /* EN7.m4a */; };
+		0337E35420D263170061617C /* EN9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33420D263160061617C /* EN9.m4a */; };
+		0337E35520D263170061617C /* EN8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33520D263160061617C /* EN8.m4a */; };
+		0337E35620D263170061617C /* EN10.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33620D263160061617C /* EN10.m4a */; };
+		0337E35720D263170061617C /* EN20.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33820D263160061617C /* EN20.m4a */; };
+		0337E35820D263170061617C /* EN19.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33920D263160061617C /* EN19.m4a */; };
+		0337E35920D263170061617C /* EN18.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33A20D263160061617C /* EN18.m4a */; };
+		0337E35A20D263170061617C /* EN16.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33B20D263160061617C /* EN16.m4a */; };
+		0337E35B20D263170061617C /* EN17.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33C20D263160061617C /* EN17.m4a */; };
+		0337E35C20D263170061617C /* EN15.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33D20D263160061617C /* EN15.m4a */; };
+		0337E35D20D263170061617C /* EN14.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33E20D263160061617C /* EN14.m4a */; };
+		0337E35E20D263170061617C /* EN11.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E33F20D263160061617C /* EN11.m4a */; };
+		0337E35F20D263170061617C /* EN13.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E34020D263160061617C /* EN13.m4a */; };
+		0337E36020D263170061617C /* EN12.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E34120D263160061617C /* EN12.m4a */; };
+		0337E36120D263170061617C /* ENpoint.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0337E34220D263170061617C /* ENpoint.m4a */; };
+		0337E36320D2631E0061617C /* and.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36220D2631D0061617C /* and.mp3 */; };
+		0337E37420D2662A0061617C /* CN1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36520D266290061617C /* CN1.mp3 */; };
+		0337E37520D2662A0061617C /* CN4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36620D266290061617C /* CN4.mp3 */; };
+		0337E37620D2662A0061617C /* CN5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36720D266290061617C /* CN5.mp3 */; };
+		0337E37720D2662A0061617C /* CN8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36820D266290061617C /* CN8.mp3 */; };
+		0337E37820D2662A0061617C /* CN3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36920D266290061617C /* CN3.mp3 */; };
+		0337E37920D2662A0061617C /* CNpoint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36A20D266290061617C /* CNpoint.mp3 */; };
+		0337E37A20D2662A0061617C /* CN_wan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36B20D266290061617C /* CN_wan.mp3 */; };
+		0337E37B20D2662A0061617C /* CNhundred.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36C20D266290061617C /* CNhundred.mp3 */; };
+		0337E37C20D2662A0061617C /* CN10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36D20D2662A0061617C /* CN10.mp3 */; };
+		0337E37D20D2662A0061617C /* CN9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36E20D2662A0061617C /* CN9.mp3 */; };
+		0337E37E20D2662A0061617C /* CN2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E36F20D2662A0061617C /* CN2.mp3 */; };
+		0337E37F20D2662A0061617C /* CN6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E37020D2662A0061617C /* CN6.mp3 */; };
+		0337E38020D2662A0061617C /* CN0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E37120D2662A0061617C /* CN0.mp3 */; };
+		0337E38120D2662A0061617C /* CNthousand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E37220D2662A0061617C /* CNthousand.mp3 */; };
+		0337E38220D2662A0061617C /* CN7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0337E37320D2662A0061617C /* CN7.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +89,57 @@
 		0337E30820D262960061617C /* AudioNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0337E30C20D262960061617C /* AudioNumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioNumberTests.m; sourceTree = "<group>"; };
 		0337E30E20D262960061617C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0337E31920D262D00061617C /* AVAudioPlayerQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayerQueueManager.m; sourceTree = "<group>"; };
+		0337E31A20D262D00061617C /* AVAudioPlayerQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioPlayerQueueManager.h; sourceTree = "<group>"; };
+		0337E31C20D262E60061617C /* NumberToFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberToFiles.m; sourceTree = "<group>"; };
+		0337E31D20D262E60061617C /* NumberToFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberToFiles.h; sourceTree = "<group>"; };
+		0337E32220D263160061617C /* EN30.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN30.m4a; sourceTree = "<group>"; };
+		0337E32320D263160061617C /* EN40.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN40.m4a; sourceTree = "<group>"; };
+		0337E32420D263160061617C /* EN80.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN80.m4a; sourceTree = "<group>"; };
+		0337E32520D263160061617C /* EN90.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN90.m4a; sourceTree = "<group>"; };
+		0337E32620D263160061617C /* EN50.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN50.m4a; sourceTree = "<group>"; };
+		0337E32720D263160061617C /* EN60.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN60.m4a; sourceTree = "<group>"; };
+		0337E32820D263160061617C /* EN70.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN70.m4a; sourceTree = "<group>"; };
+		0337E32920D263160061617C /* EN100.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN100.m4a; sourceTree = "<group>"; };
+		0337E32A20D263160061617C /* EN1000.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN1000.m4a; sourceTree = "<group>"; };
+		0337E32C20D263160061617C /* EN3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN3.m4a; sourceTree = "<group>"; };
+		0337E32D20D263160061617C /* EN2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN2.m4a; sourceTree = "<group>"; };
+		0337E32E20D263160061617C /* EN0.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN0.m4a; sourceTree = "<group>"; };
+		0337E32F20D263160061617C /* EN1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN1.m4a; sourceTree = "<group>"; };
+		0337E33020D263160061617C /* EN5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN5.m4a; sourceTree = "<group>"; };
+		0337E33120D263160061617C /* EN4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN4.m4a; sourceTree = "<group>"; };
+		0337E33220D263160061617C /* EN6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN6.m4a; sourceTree = "<group>"; };
+		0337E33320D263160061617C /* EN7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN7.m4a; sourceTree = "<group>"; };
+		0337E33420D263160061617C /* EN9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN9.m4a; sourceTree = "<group>"; };
+		0337E33520D263160061617C /* EN8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN8.m4a; sourceTree = "<group>"; };
+		0337E33620D263160061617C /* EN10.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN10.m4a; sourceTree = "<group>"; };
+		0337E33820D263160061617C /* EN20.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN20.m4a; sourceTree = "<group>"; };
+		0337E33920D263160061617C /* EN19.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN19.m4a; sourceTree = "<group>"; };
+		0337E33A20D263160061617C /* EN18.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN18.m4a; sourceTree = "<group>"; };
+		0337E33B20D263160061617C /* EN16.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN16.m4a; sourceTree = "<group>"; };
+		0337E33C20D263160061617C /* EN17.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN17.m4a; sourceTree = "<group>"; };
+		0337E33D20D263160061617C /* EN15.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN15.m4a; sourceTree = "<group>"; };
+		0337E33E20D263160061617C /* EN14.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN14.m4a; sourceTree = "<group>"; };
+		0337E33F20D263160061617C /* EN11.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN11.m4a; sourceTree = "<group>"; };
+		0337E34020D263160061617C /* EN13.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN13.m4a; sourceTree = "<group>"; };
+		0337E34120D263160061617C /* EN12.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = EN12.m4a; sourceTree = "<group>"; };
+		0337E34220D263170061617C /* ENpoint.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ENpoint.m4a; sourceTree = "<group>"; };
+		0337E36220D2631D0061617C /* and.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = and.mp3; sourceTree = "<group>"; };
+		0337E36520D266290061617C /* CN1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN1.mp3; sourceTree = "<group>"; };
+		0337E36620D266290061617C /* CN4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN4.mp3; sourceTree = "<group>"; };
+		0337E36720D266290061617C /* CN5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN5.mp3; sourceTree = "<group>"; };
+		0337E36820D266290061617C /* CN8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN8.mp3; sourceTree = "<group>"; };
+		0337E36920D266290061617C /* CN3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN3.mp3; sourceTree = "<group>"; };
+		0337E36A20D266290061617C /* CNpoint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CNpoint.mp3; sourceTree = "<group>"; };
+		0337E36B20D266290061617C /* CN_wan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN_wan.mp3; sourceTree = "<group>"; };
+		0337E36C20D266290061617C /* CNhundred.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CNhundred.mp3; sourceTree = "<group>"; };
+		0337E36D20D2662A0061617C /* CN10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN10.mp3; sourceTree = "<group>"; };
+		0337E36E20D2662A0061617C /* CN9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN9.mp3; sourceTree = "<group>"; };
+		0337E36F20D2662A0061617C /* CN2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN2.mp3; sourceTree = "<group>"; };
+		0337E37020D2662A0061617C /* CN6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN6.mp3; sourceTree = "<group>"; };
+		0337E37120D2662A0061617C /* CN0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN0.mp3; sourceTree = "<group>"; };
+		0337E37220D2662A0061617C /* CNthousand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CNthousand.mp3; sourceTree = "<group>"; };
+		0337E37320D2662A0061617C /* CN7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CN7.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +181,7 @@
 		0337E2F220D262960061617C /* AudioNumber */ = {
 			isa = PBXGroup;
 			children = (
+				0337E31720D262A10061617C /* AudioNumber */,
 				0337E2F320D262960061617C /* AppDelegate.h */,
 				0337E2F420D262960061617C /* AppDelegate.m */,
 				0337E2F620D262960061617C /* ViewController.h */,
@@ -101,6 +202,120 @@
 				0337E30E20D262960061617C /* Info.plist */,
 			);
 			path = AudioNumberTests;
+			sourceTree = "<group>";
+		};
+		0337E31720D262A10061617C /* AudioNumber */ = {
+			isa = PBXGroup;
+			children = (
+				0337E31F20D262E90061617C /* sounds */,
+				0337E31D20D262E60061617C /* NumberToFiles.h */,
+				0337E31C20D262E60061617C /* NumberToFiles.m */,
+				0337E31820D262A90061617C /* AudioQueue */,
+			);
+			path = AudioNumber;
+			sourceTree = "<group>";
+		};
+		0337E31820D262A90061617C /* AudioQueue */ = {
+			isa = PBXGroup;
+			children = (
+				0337E31A20D262D00061617C /* AVAudioPlayerQueueManager.h */,
+				0337E31920D262D00061617C /* AVAudioPlayerQueueManager.m */,
+			);
+			path = AudioQueue;
+			sourceTree = "<group>";
+		};
+		0337E31F20D262E90061617C /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0337E36420D2660C0061617C /* CN */,
+				0337E32020D262F30061617C /* EN */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		0337E32020D262F30061617C /* EN */ = {
+			isa = PBXGroup;
+			children = (
+				0337E36220D2631D0061617C /* and.mp3 */,
+				0337E32B20D263160061617C /* 0到10 */,
+				0337E33720D263160061617C /* 11到19 */,
+				0337E32920D263160061617C /* EN100.m4a */,
+				0337E32A20D263160061617C /* EN1000.m4a */,
+				0337E34220D263170061617C /* ENpoint.m4a */,
+				0337E32120D263160061617C /* 进制位 */,
+			);
+			path = EN;
+			sourceTree = "<group>";
+		};
+		0337E32120D263160061617C /* 进制位 */ = {
+			isa = PBXGroup;
+			children = (
+				0337E32220D263160061617C /* EN30.m4a */,
+				0337E32320D263160061617C /* EN40.m4a */,
+				0337E32420D263160061617C /* EN80.m4a */,
+				0337E32520D263160061617C /* EN90.m4a */,
+				0337E32620D263160061617C /* EN50.m4a */,
+				0337E32720D263160061617C /* EN60.m4a */,
+				0337E32820D263160061617C /* EN70.m4a */,
+			);
+			path = "进制位";
+			sourceTree = "<group>";
+		};
+		0337E32B20D263160061617C /* 0到10 */ = {
+			isa = PBXGroup;
+			children = (
+				0337E32C20D263160061617C /* EN3.m4a */,
+				0337E32D20D263160061617C /* EN2.m4a */,
+				0337E32E20D263160061617C /* EN0.m4a */,
+				0337E32F20D263160061617C /* EN1.m4a */,
+				0337E33020D263160061617C /* EN5.m4a */,
+				0337E33120D263160061617C /* EN4.m4a */,
+				0337E33220D263160061617C /* EN6.m4a */,
+				0337E33320D263160061617C /* EN7.m4a */,
+				0337E33420D263160061617C /* EN9.m4a */,
+				0337E33520D263160061617C /* EN8.m4a */,
+				0337E33620D263160061617C /* EN10.m4a */,
+			);
+			path = "0到10";
+			sourceTree = "<group>";
+		};
+		0337E33720D263160061617C /* 11到19 */ = {
+			isa = PBXGroup;
+			children = (
+				0337E33820D263160061617C /* EN20.m4a */,
+				0337E33920D263160061617C /* EN19.m4a */,
+				0337E33A20D263160061617C /* EN18.m4a */,
+				0337E33B20D263160061617C /* EN16.m4a */,
+				0337E33C20D263160061617C /* EN17.m4a */,
+				0337E33D20D263160061617C /* EN15.m4a */,
+				0337E33E20D263160061617C /* EN14.m4a */,
+				0337E33F20D263160061617C /* EN11.m4a */,
+				0337E34020D263160061617C /* EN13.m4a */,
+				0337E34120D263160061617C /* EN12.m4a */,
+			);
+			path = "11到19";
+			sourceTree = "<group>";
+		};
+		0337E36420D2660C0061617C /* CN */ = {
+			isa = PBXGroup;
+			children = (
+				0337E36B20D266290061617C /* CN_wan.mp3 */,
+				0337E37120D2662A0061617C /* CN0.mp3 */,
+				0337E36520D266290061617C /* CN1.mp3 */,
+				0337E36F20D2662A0061617C /* CN2.mp3 */,
+				0337E36920D266290061617C /* CN3.mp3 */,
+				0337E36620D266290061617C /* CN4.mp3 */,
+				0337E36720D266290061617C /* CN5.mp3 */,
+				0337E37020D2662A0061617C /* CN6.mp3 */,
+				0337E37320D2662A0061617C /* CN7.mp3 */,
+				0337E36820D266290061617C /* CN8.mp3 */,
+				0337E36E20D2662A0061617C /* CN9.mp3 */,
+				0337E36D20D2662A0061617C /* CN10.mp3 */,
+				0337E36C20D266290061617C /* CNhundred.mp3 */,
+				0337E36A20D266290061617C /* CNpoint.mp3 */,
+				0337E37220D2662A0061617C /* CNthousand.mp3 */,
+			);
+			path = CN;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +400,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0337E37D20D2662A0061617C /* CN9.mp3 in Resources */,
+				0337E35020D263170061617C /* EN5.m4a in Resources */,
+				0337E37820D2662A0061617C /* CN3.mp3 in Resources */,
+				0337E34E20D263170061617C /* EN0.m4a in Resources */,
+				0337E34720D263170061617C /* EN50.m4a in Resources */,
+				0337E37A20D2662A0061617C /* CN_wan.mp3 in Resources */,
+				0337E38020D2662A0061617C /* CN0.mp3 in Resources */,
+				0337E37620D2662A0061617C /* CN5.mp3 in Resources */,
+				0337E37420D2662A0061617C /* CN1.mp3 in Resources */,
+				0337E35B20D263170061617C /* EN17.m4a in Resources */,
 				0337E30020D262960061617C /* LaunchScreen.storyboard in Resources */,
+				0337E34B20D263170061617C /* EN1000.m4a in Resources */,
+				0337E35720D263170061617C /* EN20.m4a in Resources */,
+				0337E37720D2662A0061617C /* CN8.mp3 in Resources */,
+				0337E37B20D2662A0061617C /* CNhundred.mp3 in Resources */,
 				0337E2FD20D262960061617C /* Assets.xcassets in Resources */,
+				0337E35420D263170061617C /* EN9.m4a in Resources */,
+				0337E37520D2662A0061617C /* CN4.mp3 in Resources */,
+				0337E35920D263170061617C /* EN18.m4a in Resources */,
+				0337E34C20D263170061617C /* EN3.m4a in Resources */,
+				0337E36020D263170061617C /* EN12.m4a in Resources */,
+				0337E35820D263170061617C /* EN19.m4a in Resources */,
+				0337E37C20D2662A0061617C /* CN10.mp3 in Resources */,
+				0337E34620D263170061617C /* EN90.m4a in Resources */,
+				0337E34D20D263170061617C /* EN2.m4a in Resources */,
+				0337E35D20D263170061617C /* EN14.m4a in Resources */,
+				0337E36120D263170061617C /* ENpoint.m4a in Resources */,
+				0337E35F20D263170061617C /* EN13.m4a in Resources */,
+				0337E37F20D2662A0061617C /* CN6.mp3 in Resources */,
+				0337E34920D263170061617C /* EN70.m4a in Resources */,
+				0337E35620D263170061617C /* EN10.m4a in Resources */,
+				0337E35E20D263170061617C /* EN11.m4a in Resources */,
+				0337E34A20D263170061617C /* EN100.m4a in Resources */,
+				0337E35520D263170061617C /* EN8.m4a in Resources */,
+				0337E37920D2662A0061617C /* CNpoint.mp3 in Resources */,
+				0337E34320D263170061617C /* EN30.m4a in Resources */,
+				0337E35120D263170061617C /* EN4.m4a in Resources */,
+				0337E35320D263170061617C /* EN7.m4a in Resources */,
+				0337E34F20D263170061617C /* EN1.m4a in Resources */,
 				0337E2FB20D262960061617C /* Main.storyboard in Resources */,
+				0337E37E20D2662A0061617C /* CN2.mp3 in Resources */,
+				0337E34420D263170061617C /* EN40.m4a in Resources */,
+				0337E34520D263170061617C /* EN80.m4a in Resources */,
+				0337E38120D2662A0061617C /* CNthousand.mp3 in Resources */,
+				0337E35220D263170061617C /* EN6.m4a in Resources */,
+				0337E35C20D263170061617C /* EN15.m4a in Resources */,
+				0337E34820D263170061617C /* EN60.m4a in Resources */,
+				0337E38220D2662A0061617C /* CN7.mp3 in Resources */,
+				0337E36320D2631E0061617C /* and.mp3 in Resources */,
+				0337E35A20D263170061617C /* EN16.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +467,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0337E31B20D262D00061617C /* AVAudioPlayerQueueManager.m in Sources */,
 				0337E2F820D262960061617C /* ViewController.m in Sources */,
 				0337E30320D262960061617C /* main.m in Sources */,
+				0337E31E20D262E60061617C /* NumberToFiles.m in Sources */,
 				0337E2F520D262960061617C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
