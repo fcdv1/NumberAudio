@@ -45,6 +45,7 @@
     self = [super init];
     if (self) {
         self.audioItems = [NSMutableArray new];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(AVAudioSessionInterruptionNotification:) name:AVAudioSessionInterruptionNotification object:[AVAudioSession sharedInstance]];
     }
     return self;
 }
@@ -176,5 +177,17 @@
         [self playItemNextFile:self.nowPlayingItem];
     }
 }
+#pragma mark - Session interupt
+- (void)AVAudioSessionInterruptionNotification: (NSNotification *)notificaiton {
+    AVAudioSessionInterruptionType type = [notificaiton.userInfo[AVAudioSessionInterruptionTypeKey] intValue];
+    if (type == AVAudioSessionInterruptionTypeBegan) {
+        [self cancelAllTask];
+    }
+}
+
+-(void) dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 
 @end
